@@ -1,10 +1,9 @@
 #include <stdio.h>
-
+//prueba git
 int *getRandom() {
 
 	static int r[10];
 	int i;
-	
 	srand( (unsigned)time(NULL));
 	
 	for (i=0;i<10;i++){
@@ -22,7 +21,5 @@ int *getRandom() {
 		
 		for (i=0;i<10;i++){
 			printf("*(p + %d) : %d\n", i. *(p+i));
-		}
-		return 0;
-		
+		}	
 	}	
